@@ -11,9 +11,8 @@ StandardScaler().fit_transform(X)
 ```
 
 ## Scaler
-$$
-x^' = \frac{x - min(x)}{S}
-$$
+$$x^' = \frac{x - min(x)}{S}$$
+
 ```Python
 from sklearn.preprocessing import MinMaxScaler
 
