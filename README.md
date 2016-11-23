@@ -9,3 +9,14 @@ from sklearn.preprocessing import StandardScaler
 
 StandardScaler().fit_transform(X)
 ```
+
+## Scaler
+$$
+x^' = \frac{x - min(x)}{S}
+$$
+```Python
+from sklearn.preprocessing import MinMaxScaler
+
+MinMaxScaler().fit_trainform(X)
+```
+
