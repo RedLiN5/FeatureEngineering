@@ -12,9 +12,9 @@ StandardScaler().fit_transform(X)
 
 ## Scaler
 $$
-\begin{align*}
+\begin{aligned*}
 x^' = \frac{x - min(x)}{S}
-\end{align*}
+\end{aligned*}
 $$
 
 ```Python
