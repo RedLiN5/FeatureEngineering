@@ -12,7 +12,7 @@ StandardScaler().fit_transform(X)
 
 ## Scaler
 ```tex
-x^' = \frac{x - min(x)}{S}
+x^\prime = \frac{x - min(x)}{S}
 ```
 
 ```Python
